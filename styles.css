@@ -1,0 +1,155 @@
+
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    font-family: 'Dancing Script', cursive;
+    background-color: #f0f8ff; 
+    color: #333;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #00bfa6; 
+    padding: 1em 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.nav-items li a:hover {
+    color: gold; 
+}
+
+.logo img {
+    height: 50px;
+    
+}
+
+.logo img:hover {
+    transform: scale(1.1);
+}
+
+main {
+    max-width: 1200px;
+    margin: 2em auto;
+    padding: 0 1em;
+}
+
+.section {
+    margin-bottom: 3em;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.section h1, .section h2 {
+    margin-bottom: 0.5em;
+    color: #005f4b; 
+}
+
+.section p {
+    margin-bottom: 1em;
+    color: #333;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #005f4b; 
+    color: white;
+    padding: 1em 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer p a {
+    color: #ffd700; 
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+footer p a:hover {
+    color: white;
+}
+
+.section .home-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.section .home-content img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px; /* rounded borders */
+}
+
+.section .home-content p {
+    flex: 1;
+    font-size: 1.25rem;
+    line-height: 2;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    max-width: 500px
+}
+
+.cta {
+    text-align: center;
+    margin-top: 2 rem;
+}
+
+.cta h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1 rem;
+    color: #005f4b
+}
+
+.book-now {
+    color: white;
+    font-size: 1rem;
+    padding: 1rem, 1.5rem;
+    background-color: #00bfa6;
+    border: none;
+    border-radius: 9px;
+}
+
+.book-now:active {
+    background-color: #005f4b;
+    
+}
+
+.book-now:hover {
+    background-color: gold;
+    transform: scale(1.1) /* slightly scale up button when hovered */
+}
